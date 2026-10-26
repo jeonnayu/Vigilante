@@ -64,5 +64,4 @@ try:
         estado[k] = d
 except Exception as e:
     print("ERROR:", e)
-
-                     json.dump(estado, open("estado.json", "w"), indent=1)
+json.dump(estado, open("estado.json", "w"), indent=1)
